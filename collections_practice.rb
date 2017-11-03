@@ -28,7 +28,7 @@ def kesha_maker(array)
   array.each do |value|
     value = value.chars
     value[2] = "$"
-    new_array << value.toString
+    new_array << value.join
   end
   new_array
 end
