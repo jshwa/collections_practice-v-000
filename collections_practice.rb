@@ -28,8 +28,8 @@ def kesha_maker(array)
   array.each do |value|
     value = value.chars
     binding.pry
-    value_array[2] = "$"
-    new_array << value_array.join
+    value[2] = "$"
+    new_array << value.toString
   end
   new_array
 end
