@@ -1,3 +1,5 @@
+require 'pry'
+
 def sort_array_asc(array)
   array.sort
 end
@@ -25,6 +27,7 @@ def kesha_maker(array)
   new_array = []
   array.each do |value|
     value_array = value.split
+    binding.pry 
     value_array[2] = "$"
     new_array << value_array.join
   end
