@@ -32,3 +32,8 @@ def kesha_maker(array)
   end
   new_array
 end
+
+def find_a(array)
+  array.find do |value|
+    return value if value.start_with?("a")
+end
