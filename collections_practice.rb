@@ -27,7 +27,6 @@ def kesha_maker(array)
   new_array = []
   array.each do |value|
     value = value.chars
-    binding.pry
     value[2] = "$"
     new_array << value.toString
   end
