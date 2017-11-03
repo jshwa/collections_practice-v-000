@@ -35,7 +35,7 @@ end
 
 def find_a(array)
   a = []
-  array.select do |value|
+  array.each do |value|
     a << value if value.start_with?("a")
   end
   a
