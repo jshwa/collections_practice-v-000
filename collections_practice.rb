@@ -35,6 +35,7 @@ end
 
 def find_a(array)
   array.find do |value|
-    return value if value.start_with?("a")
+    a << value if value.start_with?("a")
   end
+  a
 end
